@@ -1,0 +1,4 @@
+angka_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+ganjil_tuple = tuple(x for x in angka_tuple if x & 1)
+genap_tuple = tuple(x for x in angka_tuple if (x & 1) == 0)
+print("Ganjil (Tuple):", ganjil_tuple, "Genap (Tuple):", genap_tuple)
